@@ -44,7 +44,6 @@ var Commands = &cli.Command{
 				cmd.DataDirFlag,
 				flags.SlashingProtectionJSONFileFlag,
 				featureconfig.Mainnet,
-				featureconfig.PyrmontTestnet,
 				featureconfig.PraterTestnet,
 				cmd.AcceptTosFlag,
 			}),
